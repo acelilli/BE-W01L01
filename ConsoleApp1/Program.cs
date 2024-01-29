@@ -38,7 +38,7 @@ namespace ConsoleApp1
             atleta1.Sport = "Tennis";
             atleta1.Paese = "Italia";
             Console.WriteLine(atleta1.Nome + atleta1.Cognome + " ha rappresentato " + atleta1.Paese + " nel " + atleta1.Sport);
-            string Messaggio = atleta1.numMatch(13);
+            string Messaggio = atleta1.numPartite(13);
             Console.WriteLine(Messaggio + "\n");
             Console.WriteLine("\n"); // riga vuota
             Console.ReadLine();

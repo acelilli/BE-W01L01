@@ -17,9 +17,9 @@ namespace ConsoleApp1
         private string _paese;
         public string Paese { get { return _paese; } set { _paese = value; } }
 
-        public string numMatch(int matchVinti)
+        public string numPartite(int PartiteVinte)
         {
-            if (matchVinti > 10)
+            if (PartiteVinte > 10)
             {
                 return " ed è un grande atleta";
             }
